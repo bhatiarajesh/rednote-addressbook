@@ -26,34 +26,26 @@ POST : /api/auth/register
 Request :
 ``` [{username : angelina@gmail.com, password : "****"}] ```
 Response :
-```{"auth":true,
-    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTUyMzkxNjY0MywiZXhwIjoxNTI0MDAzMDQzfQ.rOv0B2UQkRNAeL7XmAZfkLjKn0OEptoAIssmUbbu5tA",
-    "location":"/api/users/contacts/12"}```
+``` {"auth":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTUyMzkxNjY0MywiZXhwIjoxNTI0MDAzMDQzfQ.rOv0B2UQkRNAeL7XmAZfkLjKn0OEptoAIssmUbbu5tA","location":"/api/users/contacts/12"} ```
 
 ### Login a user
 POST : /api/auth/login
 Request :
 ```username : angelina@gmail.com, password : "****" ```
 Response :
-```{"auth":true,
-    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTUyMzkxNjY0MywiZXhwIjoxNTI0MDAzMDQzfQ.rOv0B2UQkRNAeL7XmAZfkLjKn0OEptoAIssmUbbu5tA",
-    "location":"/api/users/contacts/12"}```
+``` {"auth":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTUyMzkxNjY0MywiZXhwIjoxNTI0MDAzMDQzfQ.rOv0B2UQkRNAeL7XmAZfkLjKn0OEptoAIssmUbbu5tA","location":"/api/users/contacts/12"} ```
 
 ### Manage user profile
 GET : /api/auth/profile/{userid}
-Request :
-Response
-{"id":1,"username":"test","password":"098f6bcd4621d37"}
+Response :
+``` {"id":1,"username":"test","password":"098f6bcd4621d37"} ```
 
 ## Addressbook contacts management related REST webservices
 
 ### Retrieve a list of contacts
 GET : /api/contact/list
 Response :
-```[{"id":22,"userid":66908,"firstname":"Wendy","lastname":"Johnson","phone":null},
-    {"id":38,"userid":29,"firstname":"Bill","lastname":"Maher","phone":"408-321-1232"},
-    {"id":25,"userid":30670,"firstname":"Gabrielle","lastname":"Matheson","phone":null},
-    {"id":43,"userid":2,"firstname":"John","lastname":"Monroe","phone":"408-123-3210"]```
+``` [{"id":22,"userid":66908,"firstname":"Wendy","lastname":"Johnson","phone":null},{"id":38,"userid":29,"firstname":"Bill","lastname":"Maher","phone":"408-321-1232"},{"id":25,"userid":30670,"firstname":"Gabrielle","lastname":"Matheson","phone":null},{"id":43,"userid":2,"firstname":"John","lastname":"Monroe","phone":"408-123-3210"] ```
 
 ### Create a new contact of a user
 POST /api/contact/add/{userid}
@@ -63,7 +55,7 @@ Response :
 ### Update an existing contact of a user
 POST api/contact/update/:id/users/:userid
 Response :
-```[{"id":61,"userid":2,"firstname":"Bradd","lastname":"Pitt","phone":"408-421-1223"}]```
+``` [{"id":61,"userid":2,"firstname":"Bradd","lastname":"Pitt","phone":"408-421-1223"}] ``` 
 
 ### Delete an existing contact of a user
 POST api/contact/delete/:id/users/:userid
