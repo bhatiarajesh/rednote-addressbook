@@ -1,0 +1,32 @@
+{
+  "name": "rednote-addressbook",
+  "version": "1.0.0",
+  "description": "This project is an example of how you could build a website with Node, Express, and PostgreSQL. This project and the accompanying YouTube videos is meant for junior developers who already have basic exposure to Node, Express, HTML, CSS, and JavaScript. I am going to try to assume that you're not particularly comfortable with any of them though so I will explain a lot along the way. I'm going to assume you know nothing about PostgreSQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhatiarajesh/addressbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhatiarajesh/addressbook/issues"
+  },
+  "homepage": "https://github.com/bhatiarajesh/addressbook#readme",
+  "dependencies": {
+    "MD5": "^1.3.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mustache-express": "^1.2.5",
+    "mysql": "^2.15.0",
+    "pg": "^7.4.1",
+    "pg-camelcase": "0.0.3",
+    "postmark": "^1.6.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^7.4.1"
+  }
+}
