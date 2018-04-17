@@ -36,9 +36,9 @@ env        = app.get('env') === 'development' ? 'dev' : app.get('env');
 port       = process.env.PORT || 3000;
 
 // create database connection
-db         = mysql.createConnection(require('./db/config/database')[env]);
+//db         = mysql.createConnection(require('./db/config/database')[env]);
 
-db.connect();
+//db.connect();
 
 const client = new Client();
 client.connect()
@@ -73,7 +73,6 @@ app.use('/api/contact', ContactController);
 
 module.export = md5;
 module.export = mysql;
-module.export = db;
 module.export = apikeys;
 module.export = express;
 module.export = bodyParser;
