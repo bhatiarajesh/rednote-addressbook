@@ -64,5 +64,7 @@ Response :<br/>
 
 
 # Known issues in the webapplication
-Bug id #1 : The edit button click on the first record in the contact list table may not work because that request is cached in the browser.
+Webapp bug #1 : The edit button click on the first record in the contact list table may not work because that request is cached in the browser.
+Webapp bug #2 : No token is delivered to the delete click button. The verify token works directly on the delete REST API and was tested using Postman.
+
 

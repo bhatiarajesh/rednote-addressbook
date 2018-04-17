@@ -5,8 +5,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/views/login-form.mustache" />
       <change beforePath="" afterPath="$PROJECT_DIR$/views/register-form.mustache" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/auth/VerifyToken.js" afterPath="$PROJECT_DIR$/auth/VerifyToken.js" />
-      <change beforePath="$PROJECT_DIR$/contact/ContactController.js" afterPath="$PROJECT_DIR$/contact/ContactController.js" />
       <change beforePath="$PROJECT_DIR$/db/backups/addressbook.sql" afterPath="$PROJECT_DIR$/db/backups/addressbook.sql" />
       <change beforePath="$PROJECT_DIR$/db/config/database.json" afterPath="$PROJECT_DIR$/db/config/database.json" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
@@ -18,8 +16,6 @@
       <change beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="" />
       <change beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change beforePath="$PROJECT_DIR$/sketch/screens.sketch" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/addressbook-list.mustache" afterPath="$PROJECT_DIR$/views/addressbook-list.mustache" />
-      <change beforePath="$PROJECT_DIR$/views/addressbook-update-form.mustache" afterPath="$PROJECT_DIR$/views/addressbook-update-form.mustache" />
       <change beforePath="$PROJECT_DIR$/views/book-form.mustache" afterPath="$PROJECT_DIR$/views/addressbook-form.mustache" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact/ContactController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="508">
               <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="67" column="116" lean-forward="false" selection-start-line="67" selection-start-column="116" selection-end-line="67" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -86,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/views/addressbook-list.mustache">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-490">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="45" selection-end-column="11" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -107,16 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="30" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/config/database.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -182,7 +178,6 @@
         <option value="$PROJECT_DIR$/views/register-form.mustache" />
         <option value="$PROJECT_DIR$/auth/AuthController.js" />
         <option value="$PROJECT_DIR$/user/UserController.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/db/config/database.json" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/db/backups/addressbook.sql" />
@@ -190,6 +185,7 @@
         <option value="$PROJECT_DIR$/auth/VerifyToken.js" />
         <option value="$PROJECT_DIR$/views/addressbook-list.mustache" />
         <option value="$PROJECT_DIR$/contact/ContactController.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -732,14 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth/AuthController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -815,15 +803,23 @@
     <entry file="file://$PROJECT_DIR$/views/addressbook-list.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-490">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="45" selection-end-column="11" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/ContactController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="508">
           <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="67" column="116" lean-forward="false" selection-start-line="67" selection-start-column="116" selection-end-line="67" selection-end-column="116" />
           <folding />
         </state>
       </provider>
