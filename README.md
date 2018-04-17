@@ -66,9 +66,7 @@ Response :<br/>
 # Web Application deployed on AWS
 * URL : http://ec2-107-21-84-133.compute-1.amazonaws.com:3000/
 * test account :
-    ``` username : test@mail.com,
-        password : test
-    ```
+    ``` username : test@mail.com, password : test ```
 
 # Known issues in the webapplication
 Webapp bug #1 : The edit button click on the first record in the contact list table may not work because that request is cached in the browser.
